@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-//import image from '../../images/picture.png';
+import image from '../../images/picture.png';
 export const CardContainer = styled.div`
   position: relative;
 
@@ -19,7 +19,7 @@ export const CardContainer = styled.div`
     position: absolute;
     top: 28px;
     left: 36px;
-
+    background-image: url(${image});
     width: 308px;
     height: 168px;
     z-index: 1;

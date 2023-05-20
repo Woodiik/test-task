@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-//import image from '../../images/picture.png';
+import image from '../../images/picture.png';
 export const Container = styled.div`
   position: relative;
   width: 600px;
@@ -19,9 +19,9 @@ export const Container = styled.div`
   ::before {
     content: '';
     position: absolute;
-    bottom: 40px;
+    bottom: 0px;
     left: 50%;
-
+    background-image: url(${image});
     background-size: 100% 100%;
     width: 508px;
     height: 260px;
