@@ -13,7 +13,7 @@
 /coverage
 
 # production
-#/build
+/build
 npm run deploy
 # misc
 .DS_Store
